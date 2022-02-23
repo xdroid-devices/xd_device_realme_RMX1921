@@ -10,7 +10,7 @@ $(call inherit-product, vendor/xdroid/config/common.mk)
 # Inherit XDroid build
 XDROID_BOOT := 1080
 XDROID_MAINTAINER := MaxAndreas
-TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_SUPPORTS_QUICK_TAP := false
 
 # Inherit from RMX1921 device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
